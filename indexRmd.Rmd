@@ -7,11 +7,15 @@ output:
 date: "2022-10-17"
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
 
-
+read.csv("Desktop\\gov50finalproj.csv")
 ```
 
-I'm interested in writing about wealth/income inequality, but I'm not sure what factors I would be most interesting in researching. Some potential variables could include education, generational wealth, race/ethnicity, and location of residence.
+Does the average distance traveled by a European affect their choice of car? In this study, I plan to investigate the relationship between typical distances traveled and the type of car driven (gas or electric). I hypothesize that Europeans who travel longer distances are more likely to own electric cars. This could be because Europeans who travel longer distances want the freedom of owning a personal car, but they also want to be environmentally friendly. Or, it could be more cost effective to drive an electric car in Europe as compared to other parts of the world. My explanatory variable is the distance traveled by Europeans which was gathered by surveying Europeans about the distance of their most recent trip. The outcome variable of interest is the type of car they drive. I will code this as 0 = gas car and 1 = electric car. The observed pattern that would provide support for my hypothesis would be that Europeans who drive longer distances are more likely to own an electric vehicle. A pattern that would disprove my hypothesis would be that Europeans become less likely to own an electric vehicle if they travel longer distances. A positive correlation between distance traveled and owning an electric car would provide support for my hypothesis.
+
 
